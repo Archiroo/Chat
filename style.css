@@ -86,13 +86,17 @@ body{
     border-radius: 5px;
     cursor: pointer;
 }
-.form form  .field i{
+.form form .field i{
     position: absolute;
     right: 15px;
     color: #ccc;
     top: 70%;
     transform: translateY(-50%);
     cursor: pointer;
+}
+.form form .field i.active::before{
+    content: "\f070";
+    color: #333;  
 }
 .form .link{
     text-align: center;
