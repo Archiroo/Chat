@@ -20,7 +20,7 @@
                 </div>
                 <div class="field input">
                     <label>Password</label>
-                    <input type="text" placeholder="Enter your password password">
+                    <input type="password" placeholder="Enter new password password">
                     <i class="fas fa-eye"></i>
                 </div>
                 <div class="field button">
@@ -30,5 +30,6 @@
             <div class="link">Not yet signed up? <a href="#">Sign-up now</a></div>
         </section>
     </div>
+    <script src="js/pass-show-hide.js"></script>
 </body>
 </html>
